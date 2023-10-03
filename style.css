@@ -118,3 +118,39 @@
     flex: auto;
     align-self: flex-end;
 }
+
+.call-container {
+    flex: auto;
+    justify-content: center;
+}
+.call-box-container {
+    display: flex;
+    background-color:#3882F6;
+    color: #E5E7EB;
+    margin: 50px;
+    padding: 25px 50px;
+}
+.call-box-container div {
+    flex: auto;
+}
+.call-box-container h6 {
+    font-size: larger;
+    font-weight: bold;
+}
+.call-box-container button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 5px 20px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.footer {
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    padding: 10px;
+}

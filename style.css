@@ -69,3 +69,52 @@
     width: 400px;
     height: auto;
 }
+
+.info-container {
+    flex: 0 0 auto;
+    padding: 20px;
+}
+.info-header-container {
+    display: flex;
+    justify-content: center;
+}
+.info-header-container h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px;
+}
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+}
+.card-container {
+    flex: auto;
+}
+.card-container img {
+    width: 200px;
+    height: 200px;
+}
+.card-container p {
+    color: #1f2937;
+    font-size: 16px;
+    text-align: center;
+}
+
+.quote-container {
+    flex: auto;
+    background-color: lightgray;
+    padding: 40px 80px;
+    display: flex;
+    flex-direction: column;
+}
+.quote-container p {
+    font-style: italic;
+    flex: auto;
+    font-size: large;
+}
+.quote-container h6 {
+    flex: auto;
+    align-self: flex-end;
+}
